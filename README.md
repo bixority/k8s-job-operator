@@ -119,7 +119,7 @@ CMD ["lambda-operator-http"]
 
 Build and push:
 ```bash
-docker build -t your-registry/lambda-operator-http:latest -f Dockerfile.http .
+docker build -t your-registry/lambda-operator-http:latest -f Containerfile .
 docker push your-registry/lambda-operator-http:latest
 ```
 
